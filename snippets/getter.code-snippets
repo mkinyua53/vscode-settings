@@ -1,0 +1,12 @@
+{
+	"Getters": {
+		"scope": "javascript,typescript",
+		"prefix": "getters",
+		"body": [
+			"${1:getter} () {",
+			"\treturn this.\\$store.getters.${1:getter}",
+			"}"
+		],
+		"description": "Vuex getters"
+	}
+}

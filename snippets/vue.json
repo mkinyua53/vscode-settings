@@ -1,0 +1,52 @@
+{
+	// Place your snippets for vue here. Each snippet is defined under a snippet name and has a prefix, body and
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+	// same ids are connected.
+	// Example:
+	"Vue Component": {
+		"prefix": "hellovue",
+		"body": [
+			"<template>",
+				"\t<transition name=\"slide-fade\">",
+					"\t\t<v-container fluid>",
+						"\t\t\t<title>${1:title}</title>",
+						"\t\t\t<v-layout wrap>",
+							"\t\t\t\t<h3 class=\"text-center\">${1:title}</h3>",
+						"\t\t\t</v-layout>",
+					"\t\t</v-container>",
+				"\t</transition>",
+			"</template>",
+
+			"<script>",
+				"\texport default {",
+					"\t\tname: '${1:title}',",
+					"\t\tdata () {",
+						"\t\t\treturn {",
+							"\t\t\t\t${2:data}: '${3:}',",
+						"\t\t\t}",
+					"\t\t},",
+					"\t\tmethods: {",
+						"\t\t\tsomemethod () {",
+							"\t\t\t\t${4: //}",
+						"\t\t\t}",
+					"\t\t},",
+					"\t\tcreated () {",
+						"\t\t\tthis.somemethod()",
+					"\t\t},",
+					"\t\tcomputed: {",
+						"\t\t\t${5://}",
+					"\t\t},",
+					"\t\twatch: {",
+						"\t\t\t'${6:\\$route}': 'somemethod',",
+						"\t\t}",
+					"\t}",
+			"</script>",
+
+			"<style>",
+				"\t${7: /**/}",
+			"</style>",
+		],
+		"description": "Vue Component"
+	}
+}
