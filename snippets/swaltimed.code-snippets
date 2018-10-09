@@ -1,0 +1,10 @@
+{
+	"Timed Sweetalert": {
+		"scope": "javascript,typescript",
+		"prefix": "swaltimed",
+		"body": [
+			"swal({ title: '${1:Saved}', type: '${2:warning}', timer: ${3:2500} })"
+		],
+		"description": "Show an alert for a time"
+	}
+}

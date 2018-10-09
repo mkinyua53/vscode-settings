@@ -1,0 +1,17 @@
+{
+	"Reverse Sort Order": {
+		"scope": "javascript,typescript",
+		"prefix": "reversesort",
+		"body": [
+			"reverseSortOrder () {",
+        "\tif (this.sort.order === 'asc') {",
+          "\t\tthis.sort.order = 'desc'",
+			"\t}",
+        "\telse {",
+          "\t\tthis.sort.order = 'asc'",
+				"\t}",
+			"},"
+		],
+		"description": "Reverse Sort Order"
+	}
+}

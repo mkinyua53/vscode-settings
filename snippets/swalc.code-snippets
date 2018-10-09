@@ -1,0 +1,22 @@
+{
+	"Sweet Alert": {
+		"scope": "javascript,typescript",
+		"prefix": "swalc",
+		"body": [
+			"swal({",
+				"\ttitle: ${1:title},",
+				"\ttext: '${2:text}',",
+				"\ttype: '${3:warning}',",
+				"\tshowCancelButton: ${4:true},",
+				"\tconfirmButtonColor: '${5:red}',",
+				"\tconfirmButtonText:'${6:Ok}',",
+				"\tcloseOnConfirm: ${7:true},",
+				"\tshowLoaderOnConfirm: ${8:false},",
+			"},",
+			"function () {",
+				"\t${9:axios}",
+			"}.bind(this))",
+		],
+		"description": "Full Sweetalert"
+	}
+}

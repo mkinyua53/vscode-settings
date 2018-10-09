@@ -1,0 +1,10 @@
+{
+	"Sweetalert error": {
+		"scope": "javascript,typescript",
+		"prefix": "swal",
+		"body": [
+			"swal('Error '+${2:err}.status+': '+${2:err}.statusText,'Failed to ${1:Update}','error')"
+		],
+		"description": "Sweetalert http error"
+	}
+}

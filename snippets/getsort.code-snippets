@@ -1,0 +1,17 @@
+{
+	"GetSort": {
+		"scope": "javascript,typescript",
+		"prefix": "getsort",
+		"body": [
+			"getSort (value) {",
+        "\tif (this.sort.column === value) {",
+          "\t\tthis.reverseSortOrder()",
+				"\t}",
+        "\telse {",
+          "\t\tthis.sort.column = value",
+				"\t}",
+			"},"
+		],
+		"description": "Sort columns"
+	}
+}

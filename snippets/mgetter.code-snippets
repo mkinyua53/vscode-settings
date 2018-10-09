@@ -4,7 +4,7 @@
 		"prefix": "mgetters",
 		"body": [
 			"${1:getter} () {",
-			"\treturn this.\\$store.getters[${2:getter}/${3:getter}]",
+			"\treturn this.\\$store.getters['${2:getter}/${3:getter}']",
 			"}"
 		],
 		"description": "Vuex module getters"
