@@ -12,21 +12,16 @@
     "editor.snippetSuggestions": "top",
     "workbench.colorTheme": "Monokai",
     "explorer.confirmDelete": false,
-    "php.executablePath": "C:\\Program Files (x86)\\php-7.1.9",
-    "php.suggest.basic": false,
-    "php.validate.executablePath": "C:\\Program Files (x86)\\php-7.1.9\\php.exe",
+    "php.executablePath": "C:\\php-7.1.9",
+    "php.validate.executablePath": "C:\\php-7.1.9\\php.exe",
     "terminal.integrated.rendererType": "dom",
-    "editor.tabCompletion": true,
+    "editor.tabCompletion": "on",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
-    "workbench.statusBar.feedback.visible": false,
     "breadcrumbs.enabled": true,
     "window.openFoldersInNewWindow": "on",
     "explorer.autoReveal": false,
-    "files.exclude": {
-        "**/node_modules": true
-    },
     "vetur.format.styleInitialIndent": true,
     "vetur.format.scriptInitialIndent": true,
     "window.titleBarStyle": "custom",
@@ -35,4 +30,9 @@
     "editor.formatOnType": true,
     "editor.minimap.enabled": true,
     "emmet.triggerExpansionOnTab": true,
+    "workbench.statusBar.feedback.visible": false,
+    "search.exclude": {
+        "**/node_modules": false
+    },
+    "search.followSymlinks": false,
 }
