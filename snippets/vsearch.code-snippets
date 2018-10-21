@@ -1,0 +1,9 @@
+{
+	"Search vuetify": {
+		"prefix": "vsearch",
+		"body": [
+			"<v-text-field label=\"${4:Search}\" v-model=\"${3:filterBy}\" prepend-icon=\"search\" ${2::disabled=\"${1:exams}.length < 1\" }:append-icon=\"${3:filterBy}.length > 0 ? 'close' : ''\" :append-icon-cb=\"() => (${3:filterBy} = '')\"></v-text-field>",
+		],
+		"description": "Vuetify search input"
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"Paginate Links": {
+		"prefix": "paginate-links",
+		"body": [
+			"<paginate-links for=\"filtered\" :hide-single-page=\"false\" :show-step-links=\"true\" :limit=\"5\" :async=\"true\" class=\"list-inline text-center\"></paginate-links>"
+		],
+		"description": "Display pagination links"
+	}
+}

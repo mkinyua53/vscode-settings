@@ -1,0 +1,10 @@
+{
+	"Sorted": {
+		"scope": "javascript,typescript",
+		"prefix": "sorted",
+		"body": [
+			"var ${1:sorted} = _.sortBy(${2:this.}${3:data}, this.sort.column, this.sort.order)",
+		],
+		"description": "Sorted Data"
+	}
+}

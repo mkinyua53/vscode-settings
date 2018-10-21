@@ -9,7 +9,6 @@
     "editor.tabSize": 2,
     "editor.formatOnPaste": true,
     "editor.multiCursorModifier": "ctrlCmd",
-    "editor.snippetSuggestions": "top",
     "workbench.colorTheme": "Monokai",
     "explorer.confirmDelete": false,
     "php.executablePath": "C:\\php-7.1.9",
@@ -35,4 +34,11 @@
         "**/node_modules": false
     },
     "search.followSymlinks": false,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "eslint.packageManager": "yarn",
 }
