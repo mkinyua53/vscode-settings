@@ -41,4 +41,6 @@
     },
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "eslint.packageManager": "yarn",
+    "git.autorefresh": false,
+    "git.enableSmartCommit": true,
 }

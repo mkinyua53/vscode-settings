@@ -1,0 +1,32 @@
+{
+	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders.
+	// Placeholders with the same ids are connected.
+	// Example:
+	"Vuetify Dialog": {
+		"scope": "",
+		"prefix": "vdialog",
+		"body": [
+			"<v-dialog v-model=\"edit\" :fullscreen=\"\\$breakpoint.xsOnly\">",
+        "\t<v-card>",
+          "\t\t<v-card-title class=\"teal white--text\">",
+            "\t\t\t<v-btn class=\"pa-0 mt-0\" icon flat @click=\"edit = false\" title=\"Close\">",
+              "\t\t\t\t<v-icon>fa-arrow-left</v-icon>",
+            "\t\t\t</v-btn>",
+            "\t\t\t<h4 class=\"text-center\">Edit</h4>",
+          "\t\t</v-card-title>",
+          "\t\t<v-card-text>",
+            "\t\t\t<edit-good></edit-good>",
+          "\t\t</v-card-text>",
+          "\t\t<v-card-actions>",
+            "\t\t\t<v-btn class=\"pa-0\" flat @click=\"edit = false\" title=\"Close\">Close</v-btn>",
+          "\t\t</v-card-actions>",
+        "\t</v-card>",
+      "</v-dialog>"
+		],
+		"description": "Vuetify Dialog"
+	}
+}
