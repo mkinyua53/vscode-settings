@@ -14,8 +14,8 @@
         "\tget () {",
           "\t\treturn this.\\$store.getters['${2:hospitals}/${3:hospital}']",
 				"\t},",
-        "\tset (${4:hospital}) {",
-          "\t\tthis.\\$store.commit('${2:hospitals}/${3:hospital}', { ${4:hospital} })",
+        "\tset (${1:hospital}) {",
+          "\t\tthis.\\$store.commit('${2:hospitals}/${3:hospital}', { ${1:hospital} })",
 				"\t}",
 			"},$0"
 		],

@@ -7,11 +7,15 @@
     "window.zoomLevel": 1,
     "editor.fontSize": 8,
     "editor.tabSize": 2,
+    "[html]": {
+        "editor.tabSize": 2
+    },
+    "[php]": {
+        "editor.tabSize": 4
+    },
     "editor.formatOnPaste": true,
     "editor.multiCursorModifier": "ctrlCmd",
-    "workbench.colorTheme": "Monokai",
-    "explorer.confirmDelete": false,
-    "php.executablePath": "C:\\php-7.1.9",
+    "php.executablePath": "C:\\php-7.1.9\\php.exe",
     "php.validate.executablePath": "C:\\php-7.1.9\\php.exe",
     "terminal.integrated.rendererType": "dom",
     "editor.tabCompletion": "on",
@@ -33,7 +37,6 @@
     "search.exclude": {
         "**/node_modules": false
     },
-    "search.followSymlinks": false,
     "editor.quickSuggestions": {
         "other": true,
         "comments": true,
@@ -43,4 +46,18 @@
     "eslint.packageManager": "yarn",
     "git.autorefresh": false,
     "git.enableSmartCommit": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "files.exclude": {
+        "**/.git": false
+    },
+    "search.useIgnoreFiles": false,
+    "php.memoryLimit": "2048M",
+    "workbench.colorCustomizations": {
+        "window.activeBorder": "#11d81b",
+        "window.inactiveBorder": "#ff0000",
+    },
+    "workbench.sideBar.location": "left",
+    "extensions.ignoreRecommendations": true,
+    "explorer.confirmDelete": false,
+    "workbench.colorTheme": "Monokai"
 }
