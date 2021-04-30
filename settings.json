@@ -81,5 +81,6 @@
     "window.zoomLevel": 1,
     "files.associations": {
         "*.stub": "php"
-    }
+    },
+    "git.autofetch": true
 }

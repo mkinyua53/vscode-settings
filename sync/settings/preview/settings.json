@@ -79,5 +79,6 @@
     "files.hotExit": "onExitAndWindowClose",
     "files.associations": {
         "*.stub": "php"
-    }
+    },
+    "git.autofetch": true
 }
